@@ -1,0 +1,70 @@
+/* Javascript.css */
+
+.js-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fffefc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.js-container h1 {
+  color: #f7b731;
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.js-container section {
+  margin-bottom: 40px;
+}
+
+.js-container h2 {
+  color: #e67e22;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #f1c40f;
+  padding-bottom: 5px;
+}
+
+.js-container p {
+  margin: 15px 0;
+  font-size: 1.05rem;
+}
+
+.js-container code {
+  background-color: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+  display: block;
+  margin: 10px 0;
+  white-space: pre-wrap;
+}
+
+.js-container ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.js-container ul li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .js-container {
+    padding: 20px;
+  }
+
+  .js-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .js-container h2 {
+    font-size: 1.3rem;
+  }
+}

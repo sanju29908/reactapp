@@ -1,0 +1,66 @@
+/* Python.css */
+
+.python-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  line-height: 1.7;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.python-container h1 {
+  color: #306998;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.python-container section {
+  margin-bottom: 40px;
+}
+
+.python-container h2 {
+  color: #2b6cb0;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 6px;
+}
+
+.python-container p {
+  margin: 15px 0;
+  font-size: 1.05rem;
+}
+
+.python-container code {
+  background-color: #e2e8f0;
+  padding: 2px 6px;
+  font-family: Consolas, monospace;
+  border-radius: 4px;
+}
+
+.python-container ul {
+  padding-left: 20px;
+}
+
+.python-container ul li {
+  margin-bottom: 8px;
+  list-style-type: disc;
+}
+
+@media (max-width: 768px) {
+  .python-container {
+    padding: 20px;
+  }
+
+  .python-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .python-container h2 {
+    font-size: 1.3rem;
+  }
+}
